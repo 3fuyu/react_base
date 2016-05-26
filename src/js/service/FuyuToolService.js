@@ -7,7 +7,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
-var ZLT = {};
+var FYT = {};
 
 
 /***** time *****/
@@ -240,10 +240,10 @@ string.isPhoneNum = function (str) {
 }
 
 
-ZLT.moment = moment;
-ZLT.tips = tips;
-ZLT.confirm = confirm;
-ZLT.loading = loading;
-ZLT.string = string;
+FYT.moment = moment;
+FYT.tips = tips;
+FYT.confirm = confirm;
+FYT.loading = loading;
+FYT.string = string;
 
-module.exports = ZLT;
+module.exports = FYT;

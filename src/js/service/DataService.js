@@ -4,7 +4,7 @@
 "use strict";
 
 var request = require('superagent');
-var ZLT = require('./ZLToolService.js');
+var ZLT = require('./FuyuToolService.js');
 var StorageService = require('./StorageService.js');
 var _ = require('lodash');
 require('babel-polyfill');
