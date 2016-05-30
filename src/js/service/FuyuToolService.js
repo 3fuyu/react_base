@@ -239,7 +239,6 @@ string.isPhoneNum = function (str) {
     return str.match(/^(0[0-9]{2,3}\-)?([2-9][0-9]{6,7})+(\-[0-9]{1,4})?$/) !== null || str.match(/^1\d{10}$/) !== null;
 }
 
-
 FYT.moment = moment;
 FYT.tips = tips;
 FYT.confirm = confirm;
