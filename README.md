@@ -19,7 +19,7 @@
             
 ##  service介绍
 ```
-————service
+service
     CacheService.js     //缓存服务
     DataService.js      //接口服务
     EnumService.js      //枚举服务
