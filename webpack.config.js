@@ -12,8 +12,8 @@ var deps = [
 var PORT = '3333';
 
 var config = {
-    entry: [ path.resolve(__dirname,'./src/js/app.js')],
-    //entry: ['webpack/hot/dev-server', path.resolve(__dirname, './src/js/app.js')],
+    //entry: [ path.resolve(__dirname,'./src/js/app.js')],
+    entry: ['webpack/hot/dev-server', path.resolve(__dirname, './src/js/app.js')],
     //entry: [
     //    'webpack-dev-server/client?http://0.0.0.0:8080',//资源服务器地址
     //    'webpack/hot/only-dev-server',
@@ -37,13 +37,7 @@ var config = {
             query: {
                 presets: ['react', 'es2015']
             }
-        }/*, {
-         test: /\.js?$/,
-         exclude: /node_modules/,
-         loader: 'superagent'
-
-         }*/
-        ]
+        }]
     },
     //plugins: [
     //    new webpack.optimize.UglifyJsPlugin({

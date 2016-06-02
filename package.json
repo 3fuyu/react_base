@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --colors",
-    "start": "webpack-dev-server --inline --host 10.1.1.192 --content-base assets/js/"
+    "start": "webpack-dev-server --inline --hot"
   },
   "author": "3fuyu",
   "license": "ISC",
